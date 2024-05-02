@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SearchEngine from "./ SearchEngine";
+import SearchEngine from "./SearchEngine";
 import "./App.css";
 
-const App = () => {
+export default function App() {
   return (
     <div>
       <h1>Weather App</h1>
